@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{A6EF5644-1D98-411B-BE58-3314BF7A450C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autotest", "Autotest\Autotest.csproj", "{B52E487A-D568-457D-848F-FCFDC13C0AAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DB266548-22BF-48F7-8AA8-1A1418E38F1C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6EF5644-1D98-411B-BE58-3314BF7A450C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EF5644-1D98-411B-BE58-3314BF7A450C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EF5644-1D98-411B-BE58-3314BF7A450C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EF5644-1D98-411B-BE58-3314BF7A450C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52E487A-D568-457D-848F-FCFDC13C0AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52E487A-D568-457D-848F-FCFDC13C0AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52E487A-D568-457D-848F-FCFDC13C0AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52E487A-D568-457D-848F-FCFDC13C0AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
